@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* background-color: #bddfc7; */
+}
+
+body {
+    background-color: #bddfc7;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-login {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 60rem;
+    height: 45rem;
+    background-color: #e6feed;
+    border-radius: 1rem;
+}
+
+.left-side-login {
+    width: 30rem;
+}
+
+.right-side-login {
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 30rem;
+    background-color: #fafffb;
+}
+.letter-logo {
+    margin-top: 9rem;
+}
+
+.container-image {
+    margin-top: 8rem;
+}
+
+.letter-logo span {
+    color: #63a176
+}
+
+.form-label {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+    color: #7f7e7f;
+}
+
+.form-control {
+    border-color: #edecec;
+}
+
+.forgot-password,
+.create-account {
+    color: #4f9363;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.btn-login {
+    font-size: 0.8rem;
+    background-color: #263238;
+    padding: 0.65rem;
+}
+
+.btn-login:hover{
+    background-color: #0d181d;
+}
+
+.logo-google {
+    width: 1.3rem;
+}
+
+.sign-in-google,
+.are-you-new,
+.subtitle {
+    color: #7c7b7a;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.dots {
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.dot {
+    background-color: #ceead6; 
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+}
+
+.retangule {
+    background-color: #b7ddc2;
+    width: 1.5rem;
+    height: 0.7rem;
+    border-radius: 1rem;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bddfc7;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(230 254 237);
+}
